@@ -11,7 +11,7 @@ public class MessageDto {
     private String text;
     private String tag;
     private User author;
-    private String fileName;
+    private String filename;
     private Long likes;
     private boolean myLike;
 
@@ -21,7 +21,7 @@ public class MessageDto {
         this.tag = message.getTag();
         this.text = message.getText();
         this.author = message.getAuthor();
-        this.fileName = message.getFilename();
+        this.filename = message.getFilename();
         this.likes = likes;
         this.myLike = myLike;
     }
@@ -56,8 +56,8 @@ public class MessageDto {
         return author;
     }
 
-    public String getFileName() {
-        return fileName;
+    public String getFilename() {
+        return filename;
     }
 
     public Long getLikes() {
