@@ -1,2 +1,2 @@
-# sweater
-Spring Boot learning
+# Twitter
+Simple clone of Twitter application
